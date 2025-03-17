@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Theme Table</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #121212;
+        color: white;
+        padding: 20px;
+      }
+      .table-dark {
+        background-color: black;
+      }
+      .table-dark th,
+      .table-dark td {
+        border-color: #333;
+      }
+      td.red-text {
+        color: red !important;
+      }
+      td.green-text {
+        color: green !important;
+      }
+      td.white-text {
+        color: white !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <table class="table table-dark table-bordered text-center">
+        <thead>
+          <tr>
+            <th colspan="7">HIGH & LOW of 60 MIN BAR</th>
+            <th colspan="2">CURRENT DAY 30 MINS</th>
+            <th colspan="2">LAST 5 IN 30 MINS</th>
+            <th colspan="3">DAY TOP</th>
+            <th colspan="4">HIGHEST TOP DAILY</th>
+            <th colspan="3">DAY BOTTOM</th>
+            <th colspan="4">LOWEST BOTTOM DAILY</th>
+
+            <th colspan="3">DAY PREVIOUS SWING</th>
+            <th colspan="3">DAY SWING</th>
+
+            <th colspan="3">PREVIOUS FRIDAY</th>
+            <th colspan="6">EXPIRY WEEK</th>
+            <th colspan="6">ROLLOVER WEEK</th>
+            <th colspan="3">WEEK TOP</th>
+
+            <th colspan="4">HIGHEST TOP WEEKLY</th>
+
+            <th colspan="3">WEEK BOTTOM</th>
+
+            <th colspan="4">LOWEST BOTTOM</th>
+            <th colspan="3">MONTH</th>
+            <th colspan="3">HIGHEST TOP MONTHLY</th>
+            <th colspan="3">MONTH</th>
+
+            <th colspan="3">LOWEST BOTTOM MONTHLY</th>
+          </tr>
+          <tr>
+            <th>9-10 AM</th>
+            <th>10-11 AM</th>
+            <th>11-12 PM</th>
+            <th>12-1 PM</th>
+            <th>1-2 PM</th>
+            <th>2-3 PM</th>
+            <th>3-4 PM</th>
+            <th>TOP</th>
+            <th>BOTTOM</th>
+            <th>TOPS</th>
+            <th>BOTTOMS</th>
+            <th>Latest-1</th>
+            <th>Previous-1</th>
+            <th>Previous-2</th>
+            <th>LAST 5</th>
+            <th>LAST 10</th>
+            <th>LAST 20</th>
+            <th>LAST 40</th>
+            <th>Latest-1</th>
+            <th>Previous-1</th>
+            <th>Previous-2</th>
+            <th>LAST 5</th>
+            <th>LAST 10</th>
+            <th>LAST 20</th>
+            <th>LAST 40</th>
+            <th>TOP 1</th>
+            <th>TOP 2</th>
+            <th>TOP 3</th>
+            <th>BOTTOM 1</th>
+            <th>BOTTOM 2</th>
+            <th>BOTTOM 3</th>
+            <th>HIGH</th>
+            <th>LOW</th>
+            <th>CLOSE</th>
+            <th>OPEN</th>
+            <th>HIGH/LOW VOLUME BAR</th>
+            <th>HIGH</th>
+            <th>LOW</th>
+            <th>VWAP</th>
+            <th>CLOSE</th>
+            <th>OPEN</th>
+            <th>HIGH/LOW VOLUME BAR</th>
+            <th>HIGH</th>
+            <th>LOW</th>
+            <th>VWAP</th>
+            <th>CLOSE</th>
+            <th>Latest-1</th>
+            <th>Previous-1</th>
+            <th>Previous-2</th>
+            <th>LAST 4</th>
+            <th>LAST 8</th>
+            <th>LAST 12</th>
+            <th>LAST 16</th>
+            <th>Latest-1</th>
+            <th>Previous-1</th>
+            <th>Previous-2</th>
+            <th>LAST 4</th>
+            <th>LAST 8</th>
+            <th>LAST 12</th>
+            <th>LAST 16</th>
+            <th>TOP 1</th>
+            <th>TOP 2</th>
+            <th>TOP 3</th>
+            <th>LAST 2</th>
+            <th>LAST 4</th>
+            <th>LAST 6</th>
+            <th>BOTTOM 1</th>
+            <th>BOTTOM 2</th>
+            <th>BOTTOM 3</th>
+            <th>LAST 2</th>
+            <th>LAST 4</th>
+            <th>LAST 6</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="red-text">100</td>
+            <td class="green-text">110</td>
+            <td class="white-text">105</td>
+            <td class="red-text">102</td>
+            <td class="green-text">108</td>
+            <td class="white-text">112</td>
+            <td class="red-text">107</td>
+            <td class="green-text">109</td>
+            <td class="white-text">115</td>
+            <td class="red-text">118</td>
+            <td class="green-text">121</td>
+            <td class="white-text">125</td>
+            <td class="red-text">130</td>
+            <td class="green-text">135</td>
+            <td class="white-text">140</td>
+            <td class="red-text">145</td>
+            <td class="green-text">150</td>
+            <td class="white-text">155</td>
+            <td class="red-text">160</td>
+            <td class="green-text">165</td>
+            <td class="white-text">170</td>
+            <td class="red-text">175</td>
+            <td>175</td>
+            <td class="red-text">180</td>
+            <td class="green-text">185</td>
+            <td class="white-text">190</td>
+            <td class="red-text">195</td>
+            <td class="green-text">200</td>
+            <td class="white-text">205</td>
+            <td class="red-text">210</td>
+            <td class="green-text">215</td>
+            <td class="white-text">220</td>
+            <td class="red-text">225</td>
+            <td class="green-text">230</td>
+            <td class="white-text">235</td>
+            <td class="red-text">240</td>
+            <td class="green-text">245</td>
+            <td class="white-text">250</td>
+            <td class="red-text">255</td>
+            <td class="green-text">260</td>
+            <td class="white-text">265</td>
+            <td class="red-text">270</td>
+            <td class="green-text">275</td>
+            <td class="white-text">280</td>
+            <td class="red-text">285</td>
+            <td class="green-text">290</td>
+            <td class="white-text">295</td>
+            <td class="red-text">300</td>
+            <td class="green-text">305</td>
+            <td class="white-text">310</td>
+            <td class="red-text">315</td>
+            <td class="green-text">320</td>
+            <td class="white-text">325</td>
+            <td class="red-text">330</td>
+            <td class="green-text">335</td>
+            <td class="white-text">340</td>
+            <td class="red-text">345</td>
+            <td class="green-text">350</td>
+            <td class="white-text">355</td>
+            <td class="red-text">360</td>
+            <td class="green-text">365</td>
+            <td class="white-text">370</td>
+            <td class="red-text">375</td>
+            <td class="green-text">380</td>
+            <td class="white-text">385</td>
+            <td class="red-text">390</td>
+            <td class="green-text">395</td>
+            <td class="white-text">400</td>
+            <td class="red-text">405</td>
+            <td class="green-text">410</td>
+            <td class="white-text">415</td>
+            <td class="red-text">420</td>
+          </tr>
+          <tr>
+            <td class="red-text">421</td>
+            <td class="green-text">426</td>
+            <td class="white-text">431</td>
+            <td class="red-text">436</td>
+            <td class="green-text">441</td>
+            <td class="white-text">446</td>
+            <td class="red-text">451</td>
+            <td class="green-text">456</td>
+            <td class="white-text">461</td>
+            <td class="red-text">466</td>
+            <td class="green-text">471</td>
+            <td class="white-text">476</td>
+            <td class="red-text">481</td>
+            <td class="green-text">486</td>
+            <td class="white-text">491</td>
+            <td class="red-text">496</td>
+            <td class="green-text">501</td>
+            <td class="white-text">506</td>
+            <td class="red-text">511</td>
+            <td class="green-text">516</td>
+            <td class="white-text">521</td>
+            <td class="red-text">526</td>
+            <td class="green-text">531</td>
+            <td class="white-text">536</td>
+            <td class="red-text">541</td>
+            <td class="green-text">546</td>
+            <td class="white-text">551</td>
+            <td class="red-text">556</td>
+            <td class="green-text">561</td>
+            <td class="white-text">566</td>
+            <td class="red-text">571</td>
+            <td class="green-text">576</td>
+            <td class="white-text">581</td>
+            <td class="red-text">586</td>
+            <td class="green-text">591</td>
+            <td class="white-text">596</td>
+            <td class="red-text">601</td>
+            <td class="green-text">606</td>
+            <td class="white-text">611</td>
+            <td class="red-text">616</td>
+            <td class="green-text">621</td>
+            <td class="white-text">626</td>
+            <td class="red-text">631</td>
+            <td class="green-text">636</td>
+            <td class="white-text">641</td>
+            <td class="red-text">646</td>
+            <td class="green-text">651</td>
+            <td class="white-text">656</td>
+            <td class="red-text">661</td>
+            <td class="green-text">666</td>
+            <td class="white-text">671</td>
+            <td class="red-text">676</td>
+            <td class="green-text">681</td>
+            <td class="white-text">686</td>
+            <td class="red-text">691</td>
+            <td class="green-text">696</td>
+            <td class="white-text">701</td>
+            <td class="red-text">706</td>
+            <td class="green-text">711</td>
+            <td class="white-text">716</td>
+            <td class="red-text">721</td>
+            <td class="green-text">726</td>
+            <td class="white-text">731</td>
+            <td class="red-text">736</td>
+            <td>1056</td>
+            <td>1057</td>
+            <td>1020</td>
+            <td>1256</td>
+            <td>1156</td>
+            <td>1066</td>
+            <td>105</td>
+            <td>162</td>
+        </tr>
+        <tr>
+            <td class="red-text">741</td>
+            <td class="green-text">746</td>
+            <td class="white-text">751</td>
+            <td class="red-text">756</td>
+            <td class="green-text">761</td>
+            <td class="white-text">766</td>
+            <td class="red-text">771</td>
+            <td class="green-text">776</td>
+            <td class="white-text">781</td>
+            <td class="red-text">786</td>
+            <td class="green-text">791</td>
+            <td class="white-text">796</td>
+            <td class="red-text">801</td>
+            <td class="green-text">806</td>
+            <td class="white-text">811</td>
+            <td class="red-text">816</td>
+            <td class="green-text">821</td>
+            <td class="white-text">826</td>
+            <td class="red-text">831</td>
+            <td class="green-text">836</td>
+            <td class="white-text">841</td>
+            <td class="red-text">846</td>
+            <td class="green-text">851</td>
+            <td class="white-text">856</td>
+            <td class="red-text">861</td>
+            <td class="green-text">866</td>
+            <td class="white-text">871</td>
+            <td class="red-text">876</td>
+            <td class="green-text">881</td>
+            <td class="white-text">886</td>
+            <td class="red-text">891</td>
+            <td class="green-text">896</td>
+            <td class="white-text">901</td>
+            <td class="red-text">906</td>
+            <td class="green-text">911</td>
+            <td class="white-text">916</td>
+            <td class="red-text">921</td>
+            <td class="green-text">926</td>
+            <td class="white-text">931</td>
+            <td class="red-text">936</td>
+            <td class="green-text">941</td>
+            <td class="white-text">946</td>
+            <td class="red-text">951</td>
+            <td class="green-text">956</td>
+            <td class="white-text">961</td>
+            <td class="red-text">966</td>
+            <td class="green-text">971</td>
+            <td class="white-text">976</td>
+            <td class="red-text">981</td>
+            <td class="green-text">986</td>
+            <td class="white-text">991</td>
+            <td class="red-text">996</td>
+            <td class="green-text">1001</td>
+            <td class="white-text">1006</td>
+            <td class="red-text">1011</td>
+            <td class="green-text">1016</td>
+            <td class="white-text">1021</td>
+            <td class="red-text">1026</td>
+            <td class="green-text">1031</td>
+            <td class="white-text">1036</td>
+            <td class="red-text">1041</td>
+            <td class="green-text">1046</td>
+            <td class="white-text">1051</td>
+            <td class="red-text">1056</td>
+            <td>1056</td>
+            <td>1057</td>
+            <td>1020</td>
+            <td>1256</td>
+            <td>1156</td>
+            <td>1066</td>
+            <td>105</td>
+            <td>162</td>
+        </tr>
+        
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
